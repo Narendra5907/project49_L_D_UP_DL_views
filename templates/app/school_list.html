@@ -1,0 +1,20 @@
+{% extends 'app/Dummy.html' %}
+
+
+{% block title %}
+    <title>List page</title>
+{% endblock %}
+
+
+{% block body_block %}
+<center>
+<h1>List of Schools</h1>
+
+
+{% for i in schools %}
+
+    <h1>{{i.Sname}}</h1>
+
+{% endfor %}
+</center>
+{% endblock %}
