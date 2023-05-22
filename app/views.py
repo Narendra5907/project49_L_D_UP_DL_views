@@ -19,6 +19,7 @@ class School_Detail(DetailView):
     model=School
     context_object_name='sclobject'
 
+
 class School_Create(CreateView):
     model=School
     fields='__all__'
